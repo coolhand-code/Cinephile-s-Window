@@ -16,7 +16,7 @@ Scores will be added in a csv file after every game which includes the player na
 * cowsay: used for printing guidance text and questions by different animalistic characters as if they talk to the player to make the game more visually appealing.
 * sys: used for exiting the program when desired.
 * random: used for shuffling correct and incorrect answers.
-* requests : used for supplying the questions from an API date set.
+* requests : used for supplying the questions from an API.
 * csv: used for recording the high scores.
 * tabulate: used for putting the choices in a table
 * rich: used for printing colorful text, tabulating the game rules and the high scores.
@@ -93,7 +93,7 @@ get_difficulty(playerName):
 
 get_data_and_play(difficulty, playerName):
 
-    Gets the data from a API data set. Initilize the score as 0. Displays the ruled game title
+    Gets the data from an API. Initilize the score as 0. Displays the ruled game title
     on the top of the screen, generates the score, shows player name and which question the
     player on. Asks 10 questions one by one using a stegosaurus that wears a hat. Shows questions
     and choices in a table. Expects answer.
